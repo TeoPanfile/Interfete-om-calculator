@@ -1,0 +1,105 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+
+header {
+    background-color: #232323;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+}
+
+h1 {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+nav {
+    background-color: #6b6b6b;
+    text-align: center;
+}
+
+.clasa_div {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #232323;
+    color: #fff;
+    text-align: center;
+    padding: 10px
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.subliniat {
+    background-color: yellow;
+    color: #000;
+    font-weight: bold;
+}
+
+.lista {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.lista li {
+    padding: 15px;
+}
+
+.lista>li>a {
+    text-decoration: none;
+    color:#000;
+}
+
+.lista>li>a:hover {
+    color: red;
+}
+
+.retete-grid {
+    display: grid;
+    grid-template-areas: 
+    "ret-burger-1 ret-pizza-1"
+    "ret-supa-1 ret-paste-1";
+    grid-gap: 20px;
+}
+#ret-burger-1 {
+    grid-area: ret-burger-1;
+}
+#ret-pizza-1 {
+    grid-area: ret-pizza-1;
+}
+#ret-supa-1 {
+    grid-area: ret-supa-1;
+}
+#ret-paste-1 {
+    grid-area: ret-paste-1;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.meniu-burger, .meniu-pizza, .meniu-supe, .meniu-paste{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    padding: 0px 15px 0px 15px;
+}
