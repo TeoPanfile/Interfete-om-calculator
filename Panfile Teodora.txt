@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Capybara</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Capybara</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">In a world full of Chupacabras, be a Capybara</h3>
+  <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.instagram.com%2Fseo%2Fgoogle_widget%2Fcrawler%2F%3Fmedia_id%3D2436538456236092878&tbnid=138xtUTMTAHvBM&vet=12ahUKEwjIiPj0uvWBAxVM8rsIHVtUB4QQMyhHegUIARDvAQ..i&imgrefurl=https%3A%2F%2Fwww.instagram.com%2Fp%2FCHQUtHhBNpg%2F&docid=4V2SXbSP614t0M&w=1440&h=1440&q=capybara%20the%20most%20friendly%20animal&ved=2ahUKEwjIiPj0uvWBAxVM8rsIHVtUB4QQMyhHegUIARDvAQ)" alt="Capy" style="width:500px;height:600px;">
+  <h3>The friendliest animal</h3>
+</div>
+
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What is a Capybara?</h3>
+  <p>Hailing from the regions of Central and South America, the capybara is the largest rodent in the world. Some can weigh up to 150 pounds! Then again, these massive rodents don’t really look like rodents at all — perhaps more like giant guinea pigs. Capybaras are herbivores who eat grasses, aquatic plants, fruits, seeds, and nuts. In fact, “capybara” comes from a complex Tupi word that means “slender leaf eater”.  </p>   
+  </a>
+</div>
+
+
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">The friendliest animal?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Capybaras could be the friendliest animals. They’re known to befriend various animals, even those usually considered a rival for resources or territory. They are often described as relaxed, calm, and compassionate, even adopting wild strays and abandoned young from other litters. </p>
+      <img src=”https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZRQQ24jDQRuyyYVK9qv7EBwJ1PAXJkaT0JYbnVQvorsfCGD4h31JOYqXK13XnplpKNjc&usqp=CAU” class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Sometimes capybaras even act as animal taxis, allowing smaller animals to ride on their backs! It’s not uncommon to see a bird perched calmly on top of a capybara. Yellow-headed caracaras, in particular, are quite fond of capybaras. They even act as cleaning crews, picking off ticks and other bugs from the capybaras’ fur. Researchers have observed capybaras sprawling out and exposing sores and other areas on their bodies to the birds, who quickly come in and take care of any pesky bugs. </p>
+      <img src=”(https://www.google.com/imgres?imgurl=https%3A%2F%2Fih1.redbubble.net%2Fimage.4990765059.1582%2Fur%2Cpet_blanket_small_flatlay_srp%2Csquare%2C1000x1000.jpg&tbnid=OcK29CD3ulYUlM&vet=12ahUKEwiRncCJvfWBAxXf9LsIHSRXDCkQMyhPegUIARCNAg..i&imgrefurl=https%3A%2F%2Fwww.redbubble.com%2Fi%2Fsticker%2FCapybara-Taxi-Pun-Cabby-bara-by-Jo-Brookes%2F145271582.EJUG5&docid=0QmAW6-4gTV-3M&w=1000&h=1000&itg=1&q=capybara%20taxi&ved=2ahUKEwiRncCJvfWBAxXf9LsIHSRXDCkQMyhPegUIARCNAg)” class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>The South American crocodile is the capybara’s best friend, with them mostly seen together in the wild or swimming together in the water. One theory holds that crocodiles don’t eat capybara because of their calm, relaxed energy. Most crocodiles are indifferent to what other creatures are doing, so long as it isn’t threatening, and there isn’t an animal less threatening than a capybara.</p>
+      <img src=”(https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.instagram.com%2Fseo%2Fgoogle_widget%2Fcrawler%2F%3Fmedia_id%3D2436538456210898957&tbnid=0td4Uo1NAXgnsM&vet=12ahUKEwjIiPj0uvWBAxVM8rsIHVtUB4QQMyg7egUIARDVAQ..i&imgrefurl=https%3A%2F%2Fwww.instagram.com%2Fp%2FCHQUtHhBNpg%2F&docid=4V2SXbSP614t0M&w=1440&h=1440&q=capybara%20the%20most%20friendly%20animal&ved=2ahUKEwjIiPj0uvWBAxVM8rsIHVtUB4QQMyg7egUIARDVAQ)” class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+
+<footer class="container-fluid bg-4 text-center">
+  <p>Panfile Maria Teodora <a 
+</footer>
+
+</body>
+</html>
+  <h3>I'm an adventurer</h3>
+</div>
+
+</body>
+</html>
